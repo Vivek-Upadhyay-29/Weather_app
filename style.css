@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
 }
-body{
+.images{
     display: flex;
     background-image: url('./sky.jpg');
     background-repeat: repeat;
