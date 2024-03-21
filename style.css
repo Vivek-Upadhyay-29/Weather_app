@@ -3,14 +3,20 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.images{
-    display: flex;
-    background-image: url('./sky.jpg');
-    background-repeat: repeat;
+
+body{
+
+    background-image: url('natural.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
-
 .container{
+    background-color: rgba(255, 255, 255, ); /* Background color with opacity */
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Box shadow */
     filter: drop-shadow( 5px 15px 10px rgba(18, 17, 17, 0.69));
     border-radius: 20px;
     width: 600px;
@@ -22,10 +28,11 @@
     color: #000;
 }
 .inputs{
+     border-radius: 10px;
     padding: 2rem 0 2rem 0;
     text-align: center;
     justify-content: center;
-    background-color: rgb(239, 220, 220);
+    background-color:antiquewhite;
     height: 150px;
 }
 
@@ -54,4 +61,33 @@
     border: none;
     border-radius: 4px;
     margin-top: 20px;
+}
+.display{
+    text-align: center;
+    width: 520px;
+    color:green;
+}
+.wrapper{
+    margin: 0 9rem;
+    background-color: antiquewhite;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.wrapper h2 {
+    padding: 5px 0;
+    text-align: center;
+    background:blue;
+    color: white;
+    
+}
+.wrapper h2 span
+{
+    font-size: 26px;
+    color: rgba(0, 123, 255, 0.474);
+}
+.wrapper p span
+{
+    font-size: 26px;
+    color: blue;
 }
