@@ -24,9 +24,12 @@ body{
     padding: 40px;
 }
 .main{
+    
     border-radius: 20px;
     color: #000;
+
 }
+
 .inputs{
 
     border-radius: 10px;
@@ -38,21 +41,25 @@ body{
 }
 
 #cityinput{
+
     height: 4rem;
     width: 20rem;
     background-color: black;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27px;
     padding: 10px;
     border: none;
     color: #000;
+    text-align: center;
     background-color: transparent;
     border: 2px solid black;
     border-radius: 3px;
     margin-right: 4px;
+    border-color: #000;
 }
 
 .inputs input{
+    
     height: 3.5rem;
     width: 6rem;
     background-color:#270aca;
@@ -77,9 +84,10 @@ body{
     border-radius: 10px;
 }
 .wrapper h2 {
-    padding: 5px 0;
+    font-size: 30px;
+    padding: 10px 0;
     text-align: center;
-    background:blue;
+    background :blue;
     color: white;
     
 }
@@ -90,16 +98,16 @@ body{
     text-align: left;
     color: #04214c;
     font-weight: bolder;
-    font-size:23px;
+    font-size:30px;
 }
 .wrapper h2 span
 {
-    font-size: 26px;
+    font-size: 30px;
     color:#9beefb;
 }
 .wrapper p span
 {
-    font-size: 26px;
+    font-size: 30px;
     color: #5e0df4;
     font-weight: bold;
 }
