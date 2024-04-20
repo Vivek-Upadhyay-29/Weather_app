@@ -6,7 +6,7 @@
 
 body{
 
-    background-image: url('natural.jpg');
+    background-image: url('./sky.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -42,7 +42,7 @@ body{
     width: 20rem;
     background-color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
     border: none;
     color: #000;
@@ -53,15 +53,16 @@ body{
 }
 
 .inputs input{
-    height: 3rem;
+    height: 3.5rem;
     width: 6rem;
     background-color:#270aca;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 1rem;
+    font-size: 20px;
+    padding: 15px 5px;
     border: none;
     border-radius: 4px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .display{
     text-align: center;
